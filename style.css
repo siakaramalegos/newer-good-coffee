@@ -29,3 +29,35 @@ nav.navbar-inverse {
   padding-top: 30px;
   padding-bottom: 15px;
 }
+
+footer {
+  background-color: #D64541;
+  color: #F7FAFE;
+  padding: 20px 0 10px;
+}
+
+footer a {
+  color: #F7FAFE;
+  margin-left: 20px;
+}
+
+footer a:hover {
+  color: #ccc;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 465px) {
+  footer a {
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  footer {
+    font-size: 10px;
+  }
+
+  footer a {
+    margin: 0;
+  }
+}
