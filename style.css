@@ -1,3 +1,7 @@
+nav.navbar-inverse {
+  background-color: rgba(34, 34, 34, 0.6);
+  border: none;
+}
 
 .jumbotron {
   background-color: #323232;
