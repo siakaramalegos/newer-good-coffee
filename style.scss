@@ -1,0 +1,99 @@
+// To start watching this file, run this command:
+// sass --watch style.scss:style.css
+
+// Brand colors
+$charcoal: #323232;
+$red: #D64541;
+$off-white: #F7FAFE;
+$seafoam-green: #A2DED0;
+
+
+
+
+// ******************************
+// Navbar
+// ******************************
+nav.navbar-inverse {
+  background-color: rgba(34, 34, 34, 0.6);
+  border: none;
+}
+
+
+
+
+// ******************************
+// Header
+// ******************************
+.jumbotron {
+  background-color: $charcoal;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/62/Drip_Coffee_Bangkok.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  color: $off-white;
+  padding: 140px 0 90px;
+}
+
+
+
+
+// ******************************
+// Main
+// ******************************
+
+// Mission
+#mission {
+  background-color: $charcoal;
+  color: $off-white;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1.2em;
+}
+
+// Features
+#features {
+  background-color: $seafoam-green;
+  font-family: 'Muli', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+
+
+
+// ******************************
+// Footer
+// ******************************
+footer {
+  background-color: $red;
+  color: $off-white;
+  padding: 20px 0 10px;
+
+  a {
+    color: $off-white;
+    margin-left: 20px;
+
+    &:hover {
+      color: #ccc;
+      text-decoration: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  footer a {
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  footer {
+    font-size: 10px;
+
+    a {
+      margin: 0;
+    }
+  }
+}

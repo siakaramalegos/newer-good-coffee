@@ -1,7 +1,6 @@
 nav.navbar-inverse {
   background-color: rgba(34, 34, 34, 0.6);
-  border: none;
-}
+  border: none; }
 
 .jumbotron {
   background-color: #323232;
@@ -11,8 +10,7 @@ nav.navbar-inverse {
   background-repeat: no-repeat;
   margin-bottom: 0;
   color: #F7FAFE;
-  padding: 140px 0 90px;
-}
+  padding: 140px 0 90px; }
 
 #mission {
   background-color: #323232;
@@ -20,44 +18,32 @@ nav.navbar-inverse {
   font-family: 'Raleway', sans-serif;
   padding-top: 30px;
   padding-bottom: 30px;
-  font-size: 1.2em;
-}
+  font-size: 1.2em; }
 
 #features {
   background-color: #A2DED0;
   font-family: 'Muli', sans-serif;
   padding-top: 30px;
-  padding-bottom: 15px;
-}
+  padding-bottom: 15px; }
 
 footer {
   background-color: #D64541;
   color: #F7FAFE;
-  padding: 20px 0 10px;
-}
-
-footer a {
-  color: #F7FAFE;
-  margin-left: 20px;
-}
-
-footer a:hover {
-  color: #ccc;
-  text-decoration: none;
-}
+  padding: 20px 0 10px; }
+  footer a {
+    color: #F7FAFE;
+    margin-left: 20px; }
+    footer a:hover {
+      color: #ccc;
+      text-decoration: none; }
 
 @media only screen and (max-width: 465px) {
   footer a {
-    margin-left: 5px;
-  }
-}
-
+    margin-left: 5px; } }
 @media only screen and (max-width: 372px) {
   footer {
-    font-size: 10px;
-  }
+    font-size: 10px; }
+    footer a {
+      margin: 0; } }
 
-  footer a {
-    margin: 0;
-  }
-}
+/*# sourceMappingURL=style.css.map */
